@@ -15,7 +15,7 @@ from src.utils.logger import logger
 
 class ImportWorker(QThread):
     progress = pyqtSignal(int)
-    finished = pyqtSignal(int, int, list)  # success, error, errors_list
+    finished = pyqtSignal(int, int, list) 
     error = pyqtSignal(str)
 
     def __init__(self, file_path: str, import_type: str, department_id: int):

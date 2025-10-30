@@ -1,3 +1,0 @@
-"""
-Çekirdek iş mantığı modülleri
-"""
